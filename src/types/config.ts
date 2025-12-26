@@ -161,9 +161,9 @@ export type NavBarConfig = {
 };
 
 export type ProfileConfig = {
-	avatar?: string;
+	avatar: string;
 	name: string;
-	bio?: string;
+	bio: string;
 	links: {
 		name: string;
 		url: string;
