@@ -92,7 +92,7 @@ export const siteConfig: SiteConfig = {
 				"/assets/desktop-banner/Luner.jpeg",
 			], // 桌面横幅图片
 			mobile: [
-				"/assets/mobile-banner/Luner.jpeg",
+				"\assets\images\mobile.jpg",
 			],// 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -531,3 +531,4 @@ export const umamiConfig = {
 <script defer src="https://cloud.umami.is/script.js" data-website-id="5f2b123e-4c70-402e-8a25-2bb788a552f4"></script>
   `.trim(), // 上面填你要插入的Script,不用再去Layout中插入
 } as const;
+//init
