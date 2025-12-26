@@ -155,7 +155,7 @@ export const siteConfig: SiteConfig = {
 		// 留空以使用默认 favicon
 		// {
 		//   src: '/favicon/icon.png',    // 图标文件路径
-		//   theme: 'light',              // 可选，指定主题 'light' | 'dark'
+		//   theme: 'dark',              // 可选，指定主题 'light' | 'dark'
 		//   sizes: '32x32',              // 可选，图标大小
 		// }
 	],
@@ -337,6 +337,7 @@ export const announcementConfig: AnnouncementConfig = {
 
 export const musicPlayerConfig: MusicPlayerConfig = {
 	enable: true, // 启用音乐播放器功能
+	id:8748108052,
 };
 
 export const footerConfig: FooterConfig = {

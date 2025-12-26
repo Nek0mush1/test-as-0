@@ -234,6 +234,7 @@ export type AnnouncementConfig = {
 
 export type MusicPlayerConfig = {
 	enable: boolean; // 是否启用音乐播放器功能
+	id:number;
 };
 
 export type FooterConfig = {
