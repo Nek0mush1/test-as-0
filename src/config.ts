@@ -182,7 +182,7 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
 	carousel: {
-		enable: false, // 启用轮播
+		enable: true, // 启用轮播
 		interval: 1, // 轮播间隔时间（秒）
 	},
 	zIndex: -1, // 层级，确保壁纸在背景层
@@ -267,7 +267,8 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/Sun.jpg", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	avatar: "/assets/images/Sun.jpg"
+, // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
 	name: "雪花沉睡",
 	bio: "老师，那些没有天赋的人呢？他们的人生从一开始就浪费了吗？",
 	typewriter: {
